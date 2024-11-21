@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Molex")(type "KiCad")(uri "${KIPRJMOD}/libs/Molex.kicad_sym")(options "")(descr ""))
+  (lib (name "Taoglas")(type "KiCad")(uri "${KIPRJMOD}/libs/Taoglas.kicad_sym")(options "")(descr ""))
+  (lib (name "Wago")(type "KiCad")(uri "${KIPRJMOD}/libs/Wago.kicad_sym")(options "")(descr ""))
+  (lib (name "Weidmuller")(type "KiCad")(uri "${KIPRJMOD}/libs/Weidmuller.kicad_sym")(options "")(descr ""))
+)
