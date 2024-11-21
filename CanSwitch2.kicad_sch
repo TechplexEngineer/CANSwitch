@@ -596,12 +596,6 @@
 		)
 	)
 	(junction
-		(at 100.33 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03a20ad8-e827-4560-a7f9-a0248ea1cc5b")
-	)
-	(junction
 		(at 101.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -612,6 +606,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bb5712d-85c6-4c78-bb84-1aa771d52772")
+	)
+	(junction
+		(at 82.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f40c077-0983-4205-95cc-aeb5b3a2ed35")
 	)
 	(junction
 		(at 101.6 55.88)
@@ -626,58 +626,26 @@
 		(uuid "80d1f04c-6357-4fe5-8b57-f9b573b55545")
 	)
 	(junction
-		(at 64.77 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c97df103-cb18-4efe-9651-c140c60dd6ce")
-	)
-	(junction
 		(at 102.87 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb80363d-d1da-40bc-95e8-c2cdae7b46c7")
 	)
 	(junction
-		(at 125.73 97.79)
+		(at 82.55 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4c2bb75-cf82-44dc-b6f9-ea41561b7566")
-	)
-	(junction
-		(at 125.73 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f53456b4-fc28-4c70-aa17-d6e612b070f2")
+		(uuid "d9184aa7-b872-4d20-82c7-596a4c576a90")
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 125.73 119.38)
+			(xy 82.55 110.49) (xy 82.55 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05f131d7-f770-4f8d-9ce9-9e4d34126cbd")
-	)
-	(wire
-		(pts
-			(xy 104.14 72.39) (xy 119.38 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c69268f-523d-40cf-b2b7-5da2e38f4538")
-	)
-	(wire
-		(pts
-			(xy 100.33 142.24) (xy 102.87 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21400960-322c-4056-97da-987eda41eb98")
+		(uuid "0491fded-3003-4565-a444-403f520e8083")
 	)
 	(wire
 		(pts
@@ -691,16 +659,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 97.79) (xy 64.77 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22004842-9a43-43b7-82ab-bd3cd5ebc5c5")
-	)
-	(wire
-		(pts
 			(xy 121.92 53.34) (xy 121.92 55.88)
 		)
 		(stroke
@@ -711,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 125.73 92.71)
+			(xy 125.73 92.71) (xy 125.73 119.38)
 		)
 		(stroke
 			(width 0)
@@ -728,16 +686,6 @@
 			(type default)
 		)
 		(uuid "2c9ac13c-c2ea-482c-a996-7ddd91cab356")
-	)
-	(wire
-		(pts
-			(xy 41.91 92.71) (xy 64.77 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387c04d4-466e-4f51-a74e-27d4de2eb8dc")
 	)
 	(wire
 		(pts
@@ -761,27 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 146.05) (xy 100.33 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573ca60b-56b0-4308-8e1f-83bbbf8dec57")
-	)
-	(wire
-		(pts
-			(xy 125.73 119.38) (xy 125.73 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a3d9b2-2e98-479a-8adf-3727ae56b873")
-	)
-	(wire
-		(pts
-			(xy 82.55 87.63) (xy 82.55 146.05)
+			(xy 82.55 87.63) (xy 82.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -798,6 +726,16 @@
 			(type default)
 		)
 		(uuid "5c325314-d3ef-4cca-b266-ecefd9a03c3e")
+	)
+	(wire
+		(pts
+			(xy 82.55 119.38) (xy 82.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7eb162-887c-419d-9e7f-538adb0ee8aa")
 	)
 	(wire
 		(pts
@@ -851,7 +789,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 95.25 92.71)
+			(xy 86.36 97.79) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4db60b-4f55-4121-b04c-26d862c5d0c5")
+	)
+	(wire
+		(pts
+			(xy 41.91 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -871,16 +819,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 125.73 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e16955-e453-4e17-afe4-1f7b8abc3d60")
-	)
-	(wire
-		(pts
 			(xy 101.6 53.34) (xy 101.6 55.88)
 		)
 		(stroke
@@ -891,6 +829,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 97.79) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0a6443-e05f-410a-952e-1f1114ecdc33")
+	)
+	(wire
+		(pts
 			(xy 101.6 60.96) (xy 101.6 55.88)
 		)
 		(stroke
@@ -898,16 +846,6 @@
 			(type default)
 		)
 		(uuid "8f9b55ce-cc93-47bb-ab02-157b9cda0121")
-	)
-	(wire
-		(pts
-			(xy 100.33 146.05) (xy 100.33 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4342cba-db14-4697-b91f-29efda815288")
 	)
 	(wire
 		(pts
@@ -931,6 +869,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d4e851-7c43-4f04-9205-b28153810a46")
+	)
+	(wire
+		(pts
 			(xy 100.33 121.92) (xy 102.87 121.92)
 		)
 		(stroke
@@ -951,13 +899,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 97.79) (xy 86.36 97.79)
+			(xy 86.36 72.39) (xy 119.38 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df3e11f4-bf85-41db-8f43-2f1b892e9f81")
+		(uuid "e7e3c036-733b-4bcd-bf24-09143b871c5b")
 	)
 	(wire
 		(pts
@@ -1339,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "Weidmuller:1825960000 2pos wide")
-		(at 102.87 121.92 270)
+		(at 102.87 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1296,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2e5807f-6ca1-4d38-aecf-db279bd15f6f")
 		(property "Reference" "J2"
-			(at 106.68 130.8099 90)
+			(at 93.9801 125.73 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1357,7 +1305,7 @@
 			)
 		)
 		(property "Value" "250-202 Wago"
-			(at 106.68 133.3499 90)
+			(at 91.4401 125.73 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1366,7 +1314,7 @@
 			)
 		)
 		(property "Footprint" "1825960000"
-			(at 7.95 138.43 0)
+			(at 86.36 27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1324,7 @@
 			)
 		)
 		(property "Datasheet" "http://catalog.weidmueller.com/createDatasheetForMobile.do?ordernumber=1825960000&scope1=1&scope2=1&localeId=en"
-			(at -92.05 138.43 0)
+			(at 86.36 -73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1343,7 @@
 			)
 		)
 		(property "Height" "14"
-			(at -292.05 138.43 0)
+			(at 86.36 -273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1353,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Weidmuller"
-			(at -392.05 138.43 0)
+			(at 86.36 -373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1363,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1825960000"
-			(at -492.05 138.43 0)
+			(at 86.36 -473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1373,7 @@
 			)
 		)
 		(property "Mouser Part Number" "470-1825960000"
-			(at -592.05 138.43 0)
+			(at 86.36 -573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1383,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1825960000?qs=BTG2th8YmhTHqEF9wcCIDA%3D%3D"
-			(at -692.05 138.43 0)
+			(at 86.36 -673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1393,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -792.05 138.43 0)
+			(at 86.36 -773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1403,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -892.05 138.43 0)
+			(at 86.36 -873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
